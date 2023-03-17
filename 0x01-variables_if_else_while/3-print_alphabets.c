@@ -7,10 +7,9 @@
 int main(void)
 {
 int n = 97;
-while (n <= 122)
+for (n = 90; n <= 122; n++)
 {
 putchar(n);
-n++;
 }
 putchar('\n');
 return (0);
