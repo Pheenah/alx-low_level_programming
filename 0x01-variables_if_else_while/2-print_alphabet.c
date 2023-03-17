@@ -6,8 +6,12 @@
 */
 int main(void)
 {
-for (i = 'a'; i <= 'z'; i++)
-putchar(i);
-putchar("\n");
+int n = 97;
+while (n <= 122)
+{
+putchar(n);
+n++;
+}
+putchar('\n');
 return (0);
 }
