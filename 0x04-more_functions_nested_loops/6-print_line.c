@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *Print_line - Draw a straight line according to parmeters
 *@n: The number of line to draw
@@ -7,6 +8,7 @@
 void print_lines(int n)
 {
 	int x;
+
 	if (n <= 0)
 	{
 	_putchar('\n');
