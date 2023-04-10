@@ -20,7 +20,7 @@ return (0);
 }
 count++;
 }
-return (0);
+return (1);
 }
 
 /**
@@ -37,7 +37,7 @@ int count;
 int str_to_int;
 int sum = 0;
 
-count = 0;
+count = 1;
 while (count < argc)
 {
 if (check_num(argv[count]))
