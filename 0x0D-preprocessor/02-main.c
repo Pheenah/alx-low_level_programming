@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - prints name of file
+*main - prints file name
 *
 * Return: always 0
-**/
+*/
 
 int main(void)
 {
+putchar ('0');
 putchar ('2');
 putchar ('-');
 putchar ('m');
