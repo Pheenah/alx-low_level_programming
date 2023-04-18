@@ -8,10 +8,14 @@
 
 int main(void)
 {
-putchar ('F');
-putchar ('I');
-putchar ('L');
-putchar ('E');
+putchar ('2');
+putchar ('-');
+putchar ('m');
+putchar ('a');
+putchar ('i');
+putchar ('n');
+putchar ('.');
+putchar ('c');
 putchar ('\n');
 return (0);
 }
