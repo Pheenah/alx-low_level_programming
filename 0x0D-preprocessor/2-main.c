@@ -8,14 +8,11 @@
 
 int main(void)
 {
-putchar ('2');
-putchar ('-');
-putchar ('m');
-putchar ('a');
-putchar ('i');
-putchar ('n');
-putchar ('.');
-putchar ('c');
-putchar ('\n');
+ const char *p = __FILE__;
+  while (*p)
+  {
+    putchar(*p++);
+  }
+putchar('\n');
 return (0);
 }

@@ -1,22 +1,18 @@
 #include <stdio.h>
 
 /**
-*main - prints file name
+* main - prints name of file
 *
 * Return: always 0
-*/
+**/
 
 int main(void)
 {
-putchar ('0');
-putchar ('2');
-putchar ('-');
-putchar ('m');
-putchar ('a');
-putchar ('i');
-putchar ('n');
-putchar ('.');
-putchar ('c');
-putchar ('\n');
+ const char *p = __FILE__;
+  while (*p)
+  {
+    putchar(*p++);
+  }
+putchar('\n');
 return (0);
 }
