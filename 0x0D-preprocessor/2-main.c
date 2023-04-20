@@ -8,11 +8,11 @@
 
 int main(void)
 {
- const char *p = __FILE__;
-  while (*p)
-  {
-    putchar(*p++);
-  }
+const char *p = __FILE__;
+while (*p)
+{
+putchar(*p++);
+}
 putchar('\n');
 return (0);
 }
